@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Wallets",
+  "info": {
+    "name": "wallet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

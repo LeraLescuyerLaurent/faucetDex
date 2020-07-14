@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "type": {
+      "model": "type"
+    },
+    "category": {
+      "model": "categories"
+    },
+    "monnay": {
+      "model": "monnaies"
+    },
+    "gain": {
+      "model": "gain"
+    },
+    "verification": {
+      "model": "verification"
+    },
+    "wallet": {
+      "model": "wallet"
+    },
+    "timer": {
+      "model": "timer"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "pay_out": {
+      "model": "pay-out"
+    },
+    "is_fake": {
+      "model": "is-fake"
+    }
+  }
+}

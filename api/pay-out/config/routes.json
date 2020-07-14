@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pay-outs",
+      "handler": "pay-out.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-outs/count",
+      "handler": "pay-out.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-outs/:id",
+      "handler": "pay-out.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pay-outs",
+      "handler": "pay-out.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pay-outs/:id",
+      "handler": "pay-out.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pay-outs/:id",
+      "handler": "pay-out.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

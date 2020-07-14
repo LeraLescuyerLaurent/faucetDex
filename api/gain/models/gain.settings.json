@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Gain",
+  "info": {
+    "name": "gain"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gains": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

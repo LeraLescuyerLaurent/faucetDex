@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monnaies",
+      "handler": "monnaies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monnaies/count",
+      "handler": "monnaies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monnaies/:id",
+      "handler": "monnaies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monnaies",
+      "handler": "monnaies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monnaies/:id",
+      "handler": "monnaies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monnaies/:id",
+      "handler": "monnaies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

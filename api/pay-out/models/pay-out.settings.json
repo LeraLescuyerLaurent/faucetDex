@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "PayOut",
+  "info": {
+    "name": "PayOut"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "somme": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

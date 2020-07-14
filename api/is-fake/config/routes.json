@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/is-fakes",
+      "handler": "is-fake.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/is-fakes/count",
+      "handler": "is-fake.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/is-fakes/:id",
+      "handler": "is-fake.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/is-fakes",
+      "handler": "is-fake.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/is-fakes/:id",
+      "handler": "is-fake.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/is-fakes/:id",
+      "handler": "is-fake.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

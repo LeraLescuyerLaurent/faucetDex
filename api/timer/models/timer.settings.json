@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Timer",
+  "info": {
+    "name": "timer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
